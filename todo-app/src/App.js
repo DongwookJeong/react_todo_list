@@ -1,4 +1,9 @@
+import TodoTemplate from "./components/TodoTemplate";
+import TodoInsert from "./components/TodoInsert";
+
 const App = () => {
-  return <div>Todo App 만들기</div>
+  return <TodoTemplate>
+    <TodoInsert />
+  </TodoTemplate>
 }
 export default App;
